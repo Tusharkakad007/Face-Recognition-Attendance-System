@@ -24,5 +24,7 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
+main.py
+
 # Python cache
 .pytest_cache/
