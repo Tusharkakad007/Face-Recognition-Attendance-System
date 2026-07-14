@@ -1,13 +1,5 @@
 import streamlit as st
-# import face_recognition
-import streamlit as st
-
-try:
-    import face_recognition
-    st.success("face_recognition imported successfully")
-except Exception as e:
-    st.exception(e)
-    st.stop()
+import face_recognition
 import os
 import pickle
 import datetime
