@@ -1,5 +1,21 @@
 import streamlit as st
-import face_recognition
+# import face_recognition
+import streamlit as st
+import traceback
+
+try:
+    import dlib
+    st.write("✅ dlib imported")
+except Exception:
+    st.code(traceback.format_exc())
+    st.stop()
+
+try:
+    import face_recognition
+    st.write("✅ face_recognition imported")
+except Exception:
+    st.code(traceback.format_exc())
+    st.stop()
 import os
 import pickle
 import datetime
