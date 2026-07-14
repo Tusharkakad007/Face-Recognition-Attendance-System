@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 
-st.title("🔐 Face Recognition Attendance System")
+st.title(" Face Recognition Attendance System")
 
 
 mode = st.sidebar.selectbox(
